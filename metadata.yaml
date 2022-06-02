@@ -1,4 +1,6 @@
 homepage: "https://ayruz.com"
 versions:
+  - sha: d2ad520eeb1daa270da25a2470b307fcf6b56b60
+    changeNotes: Update Display name.
   - sha: 4f24dead4a013f4455f576e804412178220ed69e
     changeNotes: Initial release.
