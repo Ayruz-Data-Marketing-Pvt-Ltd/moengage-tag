@@ -22,7 +22,7 @@ ___INFO___
   ],
   "brand": {
     "id": "github.com_ayruz-data-marketing",
-    "displayName": "Ayruz Data Marketing"
+    "displayName": "Ayruz-data-marketing"
   },
   "description": "Sends events to the MoEngage",
   "containerContexts": [
