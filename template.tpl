@@ -24,7 +24,7 @@ ___INFO___
     "id": "github.com_ayruz-data-marketing",
     "displayName": "Ayruz-data-marketing"
   },
-  "description": "Sends events to the MoEngage",
+  "description": "This tag enables you to seamlessly send Events to MoEngage",
   "containerContexts": [
     "SERVER"
   ]
