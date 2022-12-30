@@ -1,4 +1,6 @@
 homepage: "https://ayruz.com"
 versions:
+  - sha: 8e78bbb75f267fa190d8d72fa5f2c149f8e7007f
+    changeNotes: url path encoding fix
   - sha: 927f0a07b3297b7931439747ee340e3dfcd7cfc4
     changeNotes: Initial release.
