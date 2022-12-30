@@ -344,6 +344,8 @@ const getCookieValues = require("getCookieValues");
 const setCookie = require("setCookie");
 const generateRandom = require("generateRandom");
 const makeString = require("makeString");
+const encodeUri = require("encodeUri");
+
 
 const eventData = getAllEventData();
 let moe_uuid = getCookieValues("moe_uuid")[0];
@@ -359,7 +361,7 @@ const postHeaders = {
 	"MOE-APPKEY": data.apiId,
 };
 
-const urlToCall = [data.dataCenter, data.type, data.apiId].join("/");
+const urlToCall = encodeUri(data.dataCenter) + "/" + encodeUri(data.type) + "/" + encodeUri(data.apiId);
 
 const attributes = makeTableMap(data.attributes, "name", "value");
 
